@@ -1,6 +1,6 @@
 # Drip Store
 
-Link do deploy: https://drip-store-digital.vercel.app/
+Link do deploy: https://drip-store-digital.netlify.app/
 
 Projeto de e-commerce desenvolvido por mim como entrega final de Front-end, seguindo a documentação do Digital Store e o layout do Figma. A aplicação cobre as páginas principais (home, listagem e visualização de produto) e prioriza fidelidade visual, navegação fluida e boas práticas em React.
 
