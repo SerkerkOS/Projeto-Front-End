@@ -1,62 +1,46 @@
-# 👟 Drip Store
+# Drip Store
 
 Link do deploy: https://drip-store-digital.vercel.app/
 
-Um e-commerce moderno desenvolvido com React, React Router e TailwindCSS. O projeto simula uma loja online com funcionalidades completas de navegação, pesquisa, visualização de produtos, filtros, carrosséis promocionais e carrinho de compras.
+Projeto de e-commerce desenvolvido por mim como entrega final de Front-end, seguindo a documentação do Digital Store e o layout do Figma. A aplicação cobre as páginas principais (home, listagem e visualização de produto) e prioriza fidelidade visual, navegação fluida e boas práticas em React.
 
-## ✨ Funcionalidades
+**Principais funcionalidades**
 
-- 🛍 Página inicial com carrossel de promoções automáticas
-- 🔥 Destaques de produtos com selo de desconto
-- 🧾 Página de listagem com filtros por categoria, gênero, marca e estado
-- 🧠 Filtro funcional por categoria (ex: “Tênis”)
-- 📦 Página de visualização detalhada do produto com imagens, tamanhos e cores
-- 🛒 Carrinho de compras com persistência via localStorage
-- ➕ Botões de “Adicionar ao carrinho” e “Ver mais” por produto
-- 🎯 Layout totalmente responsivo baseado em design Figma
-- 🖼 Imagens reais de produtos
+- Home com carrossel de promoções e destaques de produtos
+- Listagem com filtros por categoria, gênero, marca e estado
+- Visualização de produto com imagens, tamanhos e cores
+- Carrinho com persistência em `localStorage`
+- Layout responsivo e consistente com o Figma
 
-## ⚙️ Tecnologias
+**Stack**
 
-- ⚛️ React (com Vite)
-- 📦 React Router DOM
-- 🎨 TailwindCSS
-- 🗂 Context API
-- 🧠 JavaScript
-- 💾 localStorage para manter os itens do carrinho
+- React + Vite
+- React Router DOM
+- TailwindCSS
+- Context API
+- JavaScript
 
-## 🚀 Como rodar o projeto
+**Como rodar**
 
-### 💻 Instalação
+1. Instale as dependências:
 
-Clone o repositório e instale as dependências:
+```bash
+npm install
+```
 
-```bash```
-`npm install`
+2. Rode o ambiente de desenvolvimento:
 
-## 👽 Desenvolvimento
+```bash
+npm run dev
+```
 
-Inicie o servidor de desenvolvimento:
+Acesse `http://localhost:5173`.
 
-```bash```
-`npm run dev`
+**Observações**
 
-Abra <http://localhost:5173> no navegador para visualizar a aplicação.
+- O foco principal foi fidelidade visual e estrutura das rotas.
+- Alguns botões de ordenação/filtro podem ser visuais, conforme a orientação do projeto.
 
-## Outros ambientes suportados 👀
+**Autoria**
 
-Vercel
-
-Netlify
-
-Railway
-
-Firebase Hosting
-
-GitHub Pages (com adaptações)
-
-🎨**Estilização:**
-
-Este projeto utiliza TailwindCSS para estilização rápida, responsiva e moderna. Todos os componentes são mobile-first e adaptam-se dinamicamente ao tamanho da tela.
-
-Feito com 💗 usando React + Tailwind por *Nazaré, Jacque e Adriana*
+- Nome: Kauan Bastos Mendes
